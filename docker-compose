@@ -28,8 +28,8 @@ services:
       DB_PASSWORD: ${DB_PASSWORD}
       DB_SSLMODE: require
       SUPABASE_URL: https://tpahuvmhlfluztuhznfj.supabase.co
-      ${SUPABASE_KEY}
-      ${SUPABASE_SERVICE_ROLE_KEY}
+      SUPABASE_KEY: ${SUPABASE_KEY}
+      SUPABASE_SERVICE_ROLE_KEY: ${SUPABASE_SERVICE_ROLE_KEY}
     networks:
       - rideconnect
 
